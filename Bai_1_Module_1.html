@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let diemToan = [5,4,6,3,4,2,3,5,7,5,6,8]
+    let avg =0;
+    let sum=0;
+    function findAvg(ds){
+        for (let i=0; i<ds.length;i++){
+            sum+=ds[i];
+        } avg=sum/ds.length
+        return avg;
+    }
+    alert(findAvg(diemToan));
+</script>
